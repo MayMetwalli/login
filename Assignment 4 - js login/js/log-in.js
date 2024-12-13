@@ -61,6 +61,9 @@ function validateEmptyInputs(){
             return false
     }
 
+    signUpLink.addEventListener('click', function(){
+        window.location.href = "index.html";
+   })
 
     
 
